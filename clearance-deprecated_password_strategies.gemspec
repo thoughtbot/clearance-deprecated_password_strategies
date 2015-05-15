@@ -22,5 +22,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", ">= 3.1"
 
   spec.add_dependency "activesupport"
-  spec.add_dependency "clearance", "~> 1.9.0"
+  spec.add_dependency "clearance", ">= 1.10"
 end
