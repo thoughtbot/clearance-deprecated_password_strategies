@@ -29,13 +29,6 @@ Thank you, [contributors]!
 [CONTRIBUTING]: CONTRIBUTING.md
 [contributors]: https://github.com/thoughtbot/templates/graphs/contributors
 
-## Need Help?
-
-We offer 1-on-1 coaching. [Get in touch] if you'd like to learn more about
-starting, maintaining, and contributing to an open source project.
-
-[Get in touch]: http://coaching.thoughtbot.com/rails/?utm_source=github
-
 ## License
 
 Open source templates are Copyright (c) 2015 thoughtbot, inc. It contains free
