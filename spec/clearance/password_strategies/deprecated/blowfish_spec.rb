@@ -21,7 +21,7 @@ describe Clearance::PasswordStrategies::Blowfish do
 
       it "encrypts the password using Blowfish and the existing salt" do
         cipher = OpenSSL::Cipher::Cipher.new("bf-cbc").encrypt
-        cipher.key = Digest::SHA256.digest(salt)
+        cipher.key = Digest::SHA256.digest(salt)[0..15]
         expected = cipher.update("--#{salt}--#{password}--") << cipher.final
         encrypted_password = Base64.decode64(subject.encrypted_password)
         expect(encrypted_password).to eq expected
