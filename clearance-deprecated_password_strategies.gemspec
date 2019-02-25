@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["derekprior@gmail.com"]
   spec.summary       = "Deprecated password strategies extracted from Clearance"
   spec.description   = "SHA1, Blowfish, and SHA1 to BCrypt migration strategies"
-  spec.homepage      = "https://github.com/thoughtbot/clearance-deprecated-password-strategies"
+  spec.homepage      = "https://github.com/thoughtbot/clearance-deprecated_password_strategies"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
